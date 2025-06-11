@@ -1,0 +1,779 @@
+2025-06-08 19:12:25,494 - __main__ - INFO - === Запуск AI Mentor Bot ===
+2025-06-08 19:12:25,494 - __main__ - INFO - Конфигурация успешно загружена
+2025-06-08 19:12:25,495 - __main__ - INFO - Супер-админов: 1
+2025-06-08 19:12:25,495 - __main__ - INFO - Админов: 1
+2025-06-08 19:12:25,497 - __main__ - INFO - Директория prompts создана или уже существует
+2025-06-08 19:12:25,497 - __main__ - INFO - Директория prompts/templates создана или уже существует
+2025-06-08 19:12:25,498 - __main__ - INFO - Директория logs создана или уже существует
+2025-06-08 19:12:25,498 - __main__ - INFO - Инициализация базы данных...
+2025-06-08 19:12:25,557 - database.db_functions - INFO - База данных успешно инициализирована
+2025-06-08 19:12:25,558 - __main__ - INFO - База данных успешно инициализирована
+2025-06-08 19:12:26,253 - __main__ - INFO - Бот настроен и готов к запуску
+2025-06-08 19:12:26,840 - __main__ - INFO - Бот запущен: @ninonononono_bot (nini)
+2025-06-08 19:12:27,188 - __main__ - INFO - Запуск polling...
+2025-06-08 19:12:27,189 - aiogram.dispatcher - INFO - Start polling
+2025-06-08 19:12:27,264 - aiogram.dispatcher - INFO - Run polling for bot @ninonononono_bot id=8029384431 - 'nini'
+2025-06-08 19:12:48,341 - aiogram.event - INFO - Update id=567503629 is handled. Duration 410 ms by bot id=8029384431
+2025-06-08 19:13:44,703 - aiogram.event - INFO - Update id=567503630 is handled. Duration 552 ms by bot id=8029384431
+2025-06-08 19:15:16,208 - aiogram.event - INFO - Update id=567503631 is handled. Duration 554 ms by bot id=8029384431
+2025-06-08 19:15:59,221 - aiogram.event - INFO - Update id=567503632 is handled. Duration 718 ms by bot id=8029384431
+2025-06-08 19:16:11,199 - aiogram.event - INFO - Update id=567503633 is handled. Duration 102 ms by bot id=8029384431
+2025-06-08 19:16:27,210 - aiogram.event - INFO - Update id=567503634 is handled. Duration 445 ms by bot id=8029384431
+2025-06-08 19:16:27,329 - aiogram.event - INFO - Update id=567503635 is handled. Duration 359 ms by bot id=8029384431
+2025-06-08 19:16:30,450 - aiogram.event - INFO - Update id=567503636 is handled. Duration 510 ms by bot id=8029384431
+2025-06-08 19:16:36,963 - aiogram.event - INFO - Update id=567503637 is handled. Duration 264 ms by bot id=8029384431
+2025-06-08 19:16:43,405 - aiogram.event - INFO - Update id=567503638 is handled. Duration 179 ms by bot id=8029384431
+2025-06-08 19:16:46,344 - aiogram.event - INFO - Update id=567503639 is handled. Duration 225 ms by bot id=8029384431
+2025-06-08 19:16:59,657 - aiogram.event - INFO - Update id=567503640 is handled. Duration 132 ms by bot id=8029384431
+2025-06-08 19:17:15,610 - aiogram.event - INFO - Update id=567503641 is handled. Duration 427 ms by bot id=8029384431
+2025-06-08 19:17:20,029 - aiogram.event - INFO - Update id=567503642 is handled. Duration 130 ms by bot id=8029384431
+2025-06-08 19:17:27,553 - aiogram.event - INFO - Update id=567503643 is handled. Duration 157 ms by bot id=8029384431
+2025-06-08 19:17:34,596 - aiogram.event - INFO - Update id=567503644 is handled. Duration 297 ms by bot id=8029384431
+2025-06-08 19:17:35,058 - ai.ai_processor - ERROR - Ошибка инициализации OpenAI клиента: AsyncClient.__init__() got an unexpected keyword argument 'proxies'
+2025-06-08 19:17:35,058 - ai.ai_processor - ERROR - Ошибка анализа ответа через OpenAI: AsyncClient.__init__() got an unexpected keyword argument 'proxies'
+2025-06-08 19:17:35,059 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-89' coro=<AsyncClient.aclose() done, defined at C:\Users\Azerty\Desktop\ai_mentor_bot\venv\Lib\site-packages\httpx\_client.py:1978> exception=AttributeError("'AsyncHttpxClientWrapper' object has no attribute '_state'")>
+Traceback (most recent call last):
+  File "C:\Users\Azerty\Desktop\ai_mentor_bot\venv\Lib\site-packages\httpx\_client.py", line 1982, in aclose
+    if self._state != ClientState.CLOSED:
+       ^^^^^^^^^^^
+AttributeError: 'AsyncHttpxClientWrapper' object has no attribute '_state'
+2025-06-08 19:17:35,121 - ai.background_tasks - WARNING - Анализ ответа 1/3 не удался
+2025-06-08 19:17:35,813 - aiogram.event - INFO - Update id=567503645 is handled. Duration 152 ms by bot id=8029384431
+2025-06-08 19:17:36,124 - ai.ai_processor - ERROR - Ошибка инициализации OpenAI клиента: AsyncClient.__init__() got an unexpected keyword argument 'proxies'
+2025-06-08 19:17:36,124 - ai.ai_processor - ERROR - Ошибка анализа ответа через OpenAI: AsyncClient.__init__() got an unexpected keyword argument 'proxies'
+2025-06-08 19:17:36,126 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-97' coro=<AsyncClient.aclose() done, defined at C:\Users\Azerty\Desktop\ai_mentor_bot\venv\Lib\site-packages\httpx\_client.py:1978> exception=AttributeError("'AsyncHttpxClientWrapper' object has no attribute '_state'")>
+Traceback (most recent call last):
+  File "C:\Users\Azerty\Desktop\ai_mentor_bot\venv\Lib\site-packages\httpx\_client.py", line 1982, in aclose
+    if self._state != ClientState.CLOSED:
+       ^^^^^^^^^^^
+AttributeError: 'AsyncHttpxClientWrapper' object has no attribute '_state'
+2025-06-08 19:17:36,208 - ai.background_tasks - WARNING - Анализ ответа 1/3 не удался
+2025-06-08 19:17:36,282 - ai.ai_processor - ERROR - Ошибка инициализации OpenAI клиента: AsyncClient.__init__() got an unexpected keyword argument 'proxies'
+2025-06-08 19:17:36,282 - ai.ai_processor - ERROR - Ошибка анализа ответа через OpenAI: AsyncClient.__init__() got an unexpected keyword argument 'proxies'
+2025-06-08 19:17:36,283 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-98' coro=<AsyncClient.aclose() done, defined at C:\Users\Azerty\Desktop\ai_mentor_bot\venv\Lib\site-packages\httpx\_client.py:1978> exception=AttributeError("'AsyncHttpxClientWrapper' object has no attribute '_state'")>
+Traceback (most recent call last):
+  File "C:\Users\Azerty\Desktop\ai_mentor_bot\venv\Lib\site-packages\httpx\_client.py", line 1982, in aclose
+    if self._state != ClientState.CLOSED:
+       ^^^^^^^^^^^
+AttributeError: 'AsyncHttpxClientWrapper' object has no attribute '_state'
+2025-06-08 19:17:36,291 - ai.background_tasks - WARNING - Анализ ответа 2/3 не удался
+2025-06-08 19:17:37,423 - ai.ai_processor - ERROR - Ошибка инициализации OpenAI клиента: AsyncClient.__init__() got an unexpected keyword argument 'proxies'
+2025-06-08 19:17:37,423 - ai.ai_processor - ERROR - Ошибка анализа ответа через OpenAI: AsyncClient.__init__() got an unexpected keyword argument 'proxies'
+2025-06-08 19:17:37,424 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-100' coro=<AsyncClient.aclose() done, defined at C:\Users\Azerty\Desktop\ai_mentor_bot\venv\Lib\site-packages\httpx\_client.py:1978> exception=AttributeError("'AsyncHttpxClientWrapper' object has no attribute '_state'")>
+Traceback (most recent call last):
+  File "C:\Users\Azerty\Desktop\ai_mentor_bot\venv\Lib\site-packages\httpx\_client.py", line 1982, in aclose
+    if self._state != ClientState.CLOSED:
+       ^^^^^^^^^^^
+AttributeError: 'AsyncHttpxClientWrapper' object has no attribute '_state'
+2025-06-08 19:17:37,474 - ai.background_tasks - WARNING - Анализ ответа 2/3 не удался
+2025-06-08 19:17:37,705 - ai.ai_processor - ERROR - Ошибка инициализации OpenAI клиента: AsyncClient.__init__() got an unexpected keyword argument 'proxies'
+2025-06-08 19:17:37,705 - ai.ai_processor - ERROR - Ошибка анализа ответа через OpenAI: AsyncClient.__init__() got an unexpected keyword argument 'proxies'
+2025-06-08 19:17:37,706 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-102' coro=<AsyncClient.aclose() done, defined at C:\Users\Azerty\Desktop\ai_mentor_bot\venv\Lib\site-packages\httpx\_client.py:1978> exception=AttributeError("'AsyncHttpxClientWrapper' object has no attribute '_state'")>
+Traceback (most recent call last):
+  File "C:\Users\Azerty\Desktop\ai_mentor_bot\venv\Lib\site-packages\httpx\_client.py", line 1982, in aclose
+    if self._state != ClientState.CLOSED:
+       ^^^^^^^^^^^
+AttributeError: 'AsyncHttpxClientWrapper' object has no attribute '_state'
+2025-06-08 19:17:37,721 - ai.background_tasks - WARNING - Анализ ответа 3/3 не удался
+2025-06-08 19:17:38,836 - ai.ai_processor - ERROR - Ошибка инициализации OpenAI клиента: AsyncClient.__init__() got an unexpected keyword argument 'proxies'
+2025-06-08 19:17:38,837 - ai.ai_processor - ERROR - Ошибка анализа ответа через OpenAI: AsyncClient.__init__() got an unexpected keyword argument 'proxies'
+2025-06-08 19:17:38,838 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-105' coro=<AsyncClient.aclose() done, defined at C:\Users\Azerty\Desktop\ai_mentor_bot\venv\Lib\site-packages\httpx\_client.py:1978> exception=AttributeError("'AsyncHttpxClientWrapper' object has no attribute '_state'")>
+Traceback (most recent call last):
+  File "C:\Users\Azerty\Desktop\ai_mentor_bot\venv\Lib\site-packages\httpx\_client.py", line 1982, in aclose
+    if self._state != ClientState.CLOSED:
+       ^^^^^^^^^^^
+AttributeError: 'AsyncHttpxClientWrapper' object has no attribute '_state'
+2025-06-08 19:17:38,883 - ai.background_tasks - WARNING - Анализ ответа 3/3 не удался
+2025-06-08 19:17:38,991 - ai.background_tasks - INFO - Анализ теста для attempt_id 2 завершен успешно
+2025-06-08 19:17:40,096 - ai.background_tasks - INFO - Анализ теста для attempt_id 1 завершен успешно
+2025-06-08 19:17:59,028 - aiogram.event - INFO - Update id=567503647 is handled. Duration 553 ms by bot id=8029384431
+2025-06-08 19:17:59,130 - aiogram.event - INFO - Update id=567503646 is handled. Duration 715 ms by bot id=8029384431
+2025-06-08 19:18:08,758 - aiogram.event - INFO - Update id=567503648 is handled. Duration 102 ms by bot id=8029384431
+2025-06-08 19:18:10,353 - aiogram.event - INFO - Update id=567503649 is handled. Duration 416 ms by bot id=8029384431
+2025-06-08 19:18:15,631 - aiogram.event - INFO - Update id=567503650 is handled. Duration 116 ms by bot id=8029384431
+2025-06-08 19:18:17,152 - aiogram.event - INFO - Update id=567503651 is handled. Duration 305 ms by bot id=8029384431
+2025-06-08 19:18:18,710 - aiogram.event - INFO - Update id=567503652 is not handled. Duration 2 ms by bot id=8029384431
+2025-06-08 19:18:26,762 - aiogram.event - INFO - Update id=567503653 is handled. Duration 187 ms by bot id=8029384431
+2025-06-08 19:18:36,712 - aiogram.event - INFO - Update id=567503654 is handled. Duration 224 ms by bot id=8029384431
+2025-06-08 19:18:38,905 - aiogram.event - INFO - Update id=567503655 is handled. Duration 143 ms by bot id=8029384431
+2025-06-08 19:18:41,217 - aiogram.event - INFO - Update id=567503656 is handled. Duration 306 ms by bot id=8029384431
+2025-06-08 19:18:45,416 - aiogram.event - INFO - Update id=567503657 is handled. Duration 204 ms by bot id=8029384431
+2025-06-08 19:18:45,622 - ai.ai_processor - ERROR - Ошибка инициализации OpenAI клиента: AsyncClient.__init__() got an unexpected keyword argument 'proxies'
+2025-06-08 19:18:45,623 - ai.ai_processor - ERROR - Ошибка анализа ответа через OpenAI: AsyncClient.__init__() got an unexpected keyword argument 'proxies'
+2025-06-08 19:18:45,623 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-152' coro=<AsyncClient.aclose() done, defined at C:\Users\Azerty\Desktop\ai_mentor_bot\venv\Lib\site-packages\httpx\_client.py:1978> exception=AttributeError("'AsyncHttpxClientWrapper' object has no attribute '_state'")>
+Traceback (most recent call last):
+  File "C:\Users\Azerty\Desktop\ai_mentor_bot\venv\Lib\site-packages\httpx\_client.py", line 1982, in aclose
+    if self._state != ClientState.CLOSED:
+       ^^^^^^^^^^^
+AttributeError: 'AsyncHttpxClientWrapper' object has no attribute '_state'
+2025-06-08 19:18:45,630 - ai.background_tasks - WARNING - Анализ ответа 1/3 не удался
+2025-06-08 19:18:46,754 - ai.ai_processor - ERROR - Ошибка инициализации OpenAI клиента: AsyncClient.__init__() got an unexpected keyword argument 'proxies'
+2025-06-08 19:18:46,754 - ai.ai_processor - ERROR - Ошибка анализа ответа через OpenAI: AsyncClient.__init__() got an unexpected keyword argument 'proxies'
+2025-06-08 19:18:46,755 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-154' coro=<AsyncClient.aclose() done, defined at C:\Users\Azerty\Desktop\ai_mentor_bot\venv\Lib\site-packages\httpx\_client.py:1978> exception=AttributeError("'AsyncHttpxClientWrapper' object has no attribute '_state'")>
+Traceback (most recent call last):
+  File "C:\Users\Azerty\Desktop\ai_mentor_bot\venv\Lib\site-packages\httpx\_client.py", line 1982, in aclose
+    if self._state != ClientState.CLOSED:
+       ^^^^^^^^^^^
+AttributeError: 'AsyncHttpxClientWrapper' object has no attribute '_state'
+2025-06-08 19:18:46,802 - ai.background_tasks - WARNING - Анализ ответа 2/3 не удался
+2025-06-08 19:18:47,978 - ai.ai_processor - ERROR - Ошибка инициализации OpenAI клиента: AsyncClient.__init__() got an unexpected keyword argument 'proxies'
+2025-06-08 19:18:47,978 - ai.ai_processor - ERROR - Ошибка анализа ответа через OpenAI: AsyncClient.__init__() got an unexpected keyword argument 'proxies'
+2025-06-08 19:18:47,979 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-156' coro=<AsyncClient.aclose() done, defined at C:\Users\Azerty\Desktop\ai_mentor_bot\venv\Lib\site-packages\httpx\_client.py:1978> exception=AttributeError("'AsyncHttpxClientWrapper' object has no attribute '_state'")>
+Traceback (most recent call last):
+  File "C:\Users\Azerty\Desktop\ai_mentor_bot\venv\Lib\site-packages\httpx\_client.py", line 1982, in aclose
+    if self._state != ClientState.CLOSED:
+       ^^^^^^^^^^^
+AttributeError: 'AsyncHttpxClientWrapper' object has no attribute '_state'
+2025-06-08 19:18:48,031 - ai.background_tasks - WARNING - Анализ ответа 3/3 не удался
+2025-06-08 19:18:49,345 - ai.background_tasks - INFO - Анализ теста для attempt_id 3 завершен успешно
+2025-06-08 19:19:30,576 - aiogram.event - INFO - Update id=567503658 is handled. Duration 510 ms by bot id=8029384431
+2025-06-08 19:19:43,478 - aiogram.event - INFO - Update id=567503659 is handled. Duration 192 ms by bot id=8029384431
+2025-06-08 19:20:10,823 - ai.ai_processor - ERROR - Ошибка инициализации OpenAI клиента: AsyncClient.__init__() got an unexpected keyword argument 'proxies'
+2025-06-08 19:20:10,823 - ai.ai_processor - ERROR - Ошибка распознавания голоса: AsyncClient.__init__() got an unexpected keyword argument 'proxies'
+2025-06-08 19:20:10,824 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-175' coro=<AsyncClient.aclose() done, defined at C:\Users\Azerty\Desktop\ai_mentor_bot\venv\Lib\site-packages\httpx\_client.py:1978> exception=AttributeError("'AsyncHttpxClientWrapper' object has no attribute '_state'")>
+Traceback (most recent call last):
+  File "C:\Users\Azerty\Desktop\ai_mentor_bot\venv\Lib\site-packages\httpx\_client.py", line 1982, in aclose
+    if self._state != ClientState.CLOSED:
+       ^^^^^^^^^^^
+AttributeError: 'AsyncHttpxClientWrapper' object has no attribute '_state'
+2025-06-08 19:20:11,025 - aiogram.event - INFO - Update id=567503660 is handled. Duration 817 ms by bot id=8029384431
+2025-06-08 19:22:15,163 - aiogram.event - INFO - Update id=567503661 is handled. Duration 743 ms by bot id=8029384431
+2025-06-08 19:22:15,478 - ai.ai_processor - ERROR - Ошибка инициализации OpenAI клиента: AsyncClient.__init__() got an unexpected keyword argument 'proxies'
+2025-06-08 19:22:15,478 - ai.ai_processor - ERROR - Ошибка анализа ответа через OpenAI: AsyncClient.__init__() got an unexpected keyword argument 'proxies'
+2025-06-08 19:22:15,479 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-195' coro=<AsyncClient.aclose() done, defined at C:\Users\Azerty\Desktop\ai_mentor_bot\venv\Lib\site-packages\httpx\_client.py:1978> exception=AttributeError("'AsyncHttpxClientWrapper' object has no attribute '_state'")>
+Traceback (most recent call last):
+  File "C:\Users\Azerty\Desktop\ai_mentor_bot\venv\Lib\site-packages\httpx\_client.py", line 1982, in aclose
+    if self._state != ClientState.CLOSED:
+       ^^^^^^^^^^^
+AttributeError: 'AsyncHttpxClientWrapper' object has no attribute '_state'
+2025-06-08 19:22:15,523 - ai.background_tasks - WARNING - Анализ ответа 1/3 не удался
+2025-06-08 19:22:16,642 - ai.ai_processor - ERROR - Ошибка инициализации OpenAI клиента: AsyncClient.__init__() got an unexpected keyword argument 'proxies'
+2025-06-08 19:22:16,643 - ai.ai_processor - ERROR - Ошибка анализа ответа через OpenAI: AsyncClient.__init__() got an unexpected keyword argument 'proxies'
+2025-06-08 19:22:16,643 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-197' coro=<AsyncClient.aclose() done, defined at C:\Users\Azerty\Desktop\ai_mentor_bot\venv\Lib\site-packages\httpx\_client.py:1978> exception=AttributeError("'AsyncHttpxClientWrapper' object has no attribute '_state'")>
+Traceback (most recent call last):
+  File "C:\Users\Azerty\Desktop\ai_mentor_bot\venv\Lib\site-packages\httpx\_client.py", line 1982, in aclose
+    if self._state != ClientState.CLOSED:
+       ^^^^^^^^^^^
+AttributeError: 'AsyncHttpxClientWrapper' object has no attribute '_state'
+2025-06-08 19:22:16,688 - ai.background_tasks - WARNING - Анализ ответа 2/3 не удался
+2025-06-08 19:22:17,828 - ai.ai_processor - ERROR - Ошибка инициализации OpenAI клиента: AsyncClient.__init__() got an unexpected keyword argument 'proxies'
+2025-06-08 19:22:17,829 - ai.ai_processor - ERROR - Ошибка анализа ответа через OpenAI: AsyncClient.__init__() got an unexpected keyword argument 'proxies'
+2025-06-08 19:22:17,829 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-199' coro=<AsyncClient.aclose() done, defined at C:\Users\Azerty\Desktop\ai_mentor_bot\venv\Lib\site-packages\httpx\_client.py:1978> exception=AttributeError("'AsyncHttpxClientWrapper' object has no attribute '_state'")>
+Traceback (most recent call last):
+  File "C:\Users\Azerty\Desktop\ai_mentor_bot\venv\Lib\site-packages\httpx\_client.py", line 1982, in aclose
+    if self._state != ClientState.CLOSED:
+       ^^^^^^^^^^^
+AttributeError: 'AsyncHttpxClientWrapper' object has no attribute '_state'
+2025-06-08 19:22:17,877 - ai.background_tasks - WARNING - Анализ ответа 3/3 не удался
+2025-06-08 19:22:19,140 - ai.background_tasks - INFO - Анализ теста для attempt_id 4 завершен успешно
+2025-06-08 19:24:37,032 - aiogram.event - INFO - Update id=567503662 is handled. Duration 477 ms by bot id=8029384431
+2025-06-08 19:24:41,104 - aiogram.event - INFO - Update id=567503663 is handled. Duration 147 ms by bot id=8029384431
+2025-06-08 19:24:45,515 - aiogram.event - INFO - Update id=567503664 is handled. Duration 401 ms by bot id=8029384431
+2025-06-08 19:24:49,661 - aiogram.event - INFO - Update id=567503665 is handled. Duration 408 ms by bot id=8029384431
+2025-06-08 19:24:51,792 - aiogram.event - INFO - Update id=567503666 is handled. Duration 142 ms by bot id=8029384431
+2025-06-08 19:24:56,931 - aiogram.event - INFO - Update id=567503667 is handled. Duration 203 ms by bot id=8029384431
+2025-06-08 19:25:09,554 - aiogram.event - INFO - Update id=567503668 is handled. Duration 153 ms by bot id=8029384431
+2025-06-08 19:25:11,890 - aiogram.event - INFO - Update id=567503669 is handled. Duration 315 ms by bot id=8029384431
+2025-06-08 19:25:28,270 - aiogram.event - INFO - Update id=567503670 is not handled. Duration 3 ms by bot id=8029384431
+2025-06-08 19:26:38,411 - aiogram.event - INFO - Update id=567503671 is handled. Duration 645 ms by bot id=8029384431
+2025-06-08 19:26:41,125 - aiogram.event - INFO - Update id=567503672 is handled. Duration 236 ms by bot id=8029384431
+2025-06-08 19:26:43,941 - aiogram.event - INFO - Update id=567503673 is handled. Duration 408 ms by bot id=8029384431
+2025-06-08 19:27:00,228 - aiogram.event - INFO - Update id=567503674 is not handled. Duration 4 ms by bot id=8029384431
+2025-06-08 19:27:45,996 - aiogram.event - INFO - Update id=567503675 is handled. Duration 510 ms by bot id=8029384431
+2025-06-08 19:27:49,410 - aiogram.event - INFO - Update id=567503676 is handled. Duration 197 ms by bot id=8029384431
+2025-06-08 19:27:52,652 - aiogram.event - INFO - Update id=567503677 is handled. Duration 407 ms by bot id=8029384431
+2025-06-08 19:27:54,670 - aiogram.event - INFO - Update id=567503678 is handled. Duration 173 ms by bot id=8029384431
+2025-06-08 19:28:02,655 - aiogram.event - INFO - Update id=567503679 is handled. Duration 170 ms by bot id=8029384431
+2025-06-08 19:28:05,042 - aiogram.event - INFO - Update id=567503680 is handled. Duration 303 ms by bot id=8029384431
+2025-06-08 19:28:06,272 - aiogram.event - INFO - Update id=567503681 is handled. Duration 450 ms by bot id=8029384431
+2025-06-08 19:28:13,187 - aiogram.event - INFO - Update id=567503682 is handled. Duration 360 ms by bot id=8029384431
+2025-06-08 19:41:01,436 - __main__ - INFO - === Запуск AI Mentor Bot ===
+2025-06-08 19:41:01,437 - __main__ - INFO - Конфигурация успешно загружена
+2025-06-08 19:41:01,437 - __main__ - INFO - Супер-админов: 1
+2025-06-08 19:41:01,438 - __main__ - INFO - Админов: 1
+2025-06-08 19:41:01,440 - __main__ - INFO - Директория prompts создана или уже существует
+2025-06-08 19:41:01,440 - __main__ - INFO - Директория prompts/templates создана или уже существует
+2025-06-08 19:41:01,441 - __main__ - INFO - Директория logs создана или уже существует
+2025-06-08 19:41:01,441 - __main__ - INFO - Инициализация базы данных...
+2025-06-08 19:41:01,447 - database.db_functions - INFO - База данных успешно инициализирована
+2025-06-08 19:41:01,447 - __main__ - INFO - База данных успешно инициализирована
+2025-06-08 19:41:02,142 - __main__ - INFO - Бот настроен и готов к запуску
+2025-06-08 19:41:02,588 - __main__ - INFO - Бот запущен: @ninonononono_bot (nini)
+2025-06-08 19:41:02,949 - __main__ - INFO - Запуск polling...
+2025-06-08 19:41:02,950 - aiogram.dispatcher - INFO - Start polling
+2025-06-08 19:41:03,065 - aiogram.dispatcher - INFO - Run polling for bot @ninonononono_bot id=8029384431 - 'nini'
+2025-06-08 19:41:03,708 - aiogram.event - INFO - Update id=567503684 is handled. Duration 488 ms by bot id=8029384431
+2025-06-08 19:41:17,020 - aiogram.event - INFO - Update id=567503685 is handled. Duration 88 ms by bot id=8029384431
+2025-06-08 19:41:22,668 - aiogram.event - INFO - Update id=567503686 is handled. Duration 140 ms by bot id=8029384431
+2025-06-08 19:41:24,264 - aiogram.event - INFO - Update id=567503687 is handled. Duration 175 ms by bot id=8029384431
+2025-06-08 19:41:26,651 - aiogram.event - INFO - Update id=567503688 is handled. Duration 208 ms by bot id=8029384431
+2025-06-08 19:41:38,961 - ai.ai_processor - INFO - OpenAI клиент успешно инициализирован
+2025-06-08 19:41:44,778 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-06-08 19:41:44,780 - ai.ai_processor - INFO - Голос распознан: Ла-ла-ла-ла-ла-ла-ла-ла-ла, я крутой сигмабой, сухогруз это такая коробка железная....
+2025-06-08 19:41:45,079 - aiogram.event - INFO - Update id=567503689 is handled. Duration 7226 ms by bot id=8029384431
+2025-06-08 19:43:52,574 - aiogram.event - INFO - Update id=567503690 is handled. Duration 413 ms by bot id=8029384431
+2025-06-08 19:44:05,165 - aiogram.event - INFO - Update id=567503691 is handled. Duration 203 ms by bot id=8029384431
+2025-06-08 19:44:08,028 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-08 19:44:08,032 - ai.ai_processor - INFO - Ответ от OpenAI: {
+  "is_sufficient": false,
+  "recommendation": "Ответ не охватывает основные аспекты определения сухогруза и его назначения. Рекомендуется ознакомиться с учебным материалом и предоставить информацию о типах судов, их характеристиках и назначении."
+}
+2025-06-08 19:44:08,077 - ai.background_tasks - INFO - Анализ ответа 1/3 завершен
+2025-06-08 19:44:12,640 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-08 19:44:12,641 - ai.ai_processor - INFO - Ответ от OpenAI: {
+  "is_sufficient": true,
+  "recommendation": "Студент правильно перечислил основные типы сухогрузов, но следует уточнить, что 'Handysize' и 'Handymax' должны быть написаны полностью. Также стоит указать Capesize, так как он не был упомянут."
+}
+2025-06-08 19:44:12,651 - ai.background_tasks - INFO - Анализ ответа 2/3 завершен
+2025-06-08 19:44:16,429 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-08 19:44:16,430 - ai.ai_processor - INFO - Ответ от OpenAI: {
+  "is_sufficient": true,
+  "recommendation": "Ответ содержит основную суть, но не охватывает все характеристики, такие как палубные краны и классификация по размеру. Рекомендуется дополнить ответ."
+}
+2025-06-08 19:44:16,473 - ai.background_tasks - INFO - Анализ ответа 3/3 завершен
+2025-06-08 19:44:17,711 - ai.background_tasks - INFO - Анализ теста для attempt_id 5 завершен успешно
+2025-06-08 19:50:04,700 - aiogram.event - INFO - Update id=567503692 is handled. Duration 614 ms by bot id=8029384431
+2025-06-08 19:50:11,742 - aiogram.event - INFO - Update id=567503693 is handled. Duration 115 ms by bot id=8029384431
+2025-06-08 19:50:35,931 - aiogram.event - INFO - Update id=567503694 is handled. Duration 305 ms by bot id=8029384431
+2025-06-08 19:50:38,058 - aiogram.event - INFO - Update id=567503695 is handled. Duration 213 ms by bot id=8029384431
+2025-06-08 19:50:48,526 - aiogram.event - INFO - Update id=567503696 is handled. Duration 305 ms by bot id=8029384431
+2025-06-08 19:51:03,580 - aiogram.event - INFO - Update id=567503697 is handled. Duration 293 ms by bot id=8029384431
+2025-06-08 19:51:10,753 - aiogram.event - INFO - Update id=567503698 is not handled. Duration 3 ms by bot id=8029384431
+2025-06-08 19:51:22,222 - aiogram.event - INFO - Update id=567503699 is not handled. Duration 3 ms by bot id=8029384431
+2025-06-08 19:51:34,915 - aiogram.event - INFO - Update id=567503700 is handled. Duration 511 ms by bot id=8029384431
+2025-06-08 19:52:30,314 - aiogram.event - INFO - Update id=567503701 is handled. Duration 715 ms by bot id=8029384431
+2025-06-08 19:52:39,534 - aiogram.event - INFO - Update id=567503702 is handled. Duration 207 ms by bot id=8029384431
+2025-06-08 19:52:41,987 - aiogram.event - INFO - Update id=567503703 is handled. Duration 204 ms by bot id=8029384431
+2025-06-08 19:52:43,524 - aiogram.event - INFO - Update id=567503704 is handled. Duration 189 ms by bot id=8029384431
+2025-06-08 19:52:56,470 - aiogram.event - INFO - Update id=567503705 is handled. Duration 263 ms by bot id=8029384431
+2025-06-08 19:52:59,186 - aiogram.event - INFO - Update id=567503706 is handled. Duration 109 ms by bot id=8029384431
+2025-06-08 19:53:00,483 - aiogram.event - INFO - Update id=567503707 is handled. Duration 252 ms by bot id=8029384431
+2025-06-08 19:53:07,837 - aiogram.event - INFO - Update id=567503708 is handled. Duration 97 ms by bot id=8029384431
+2025-06-08 19:53:09,830 - aiogram.event - INFO - Update id=567503709 is handled. Duration 269 ms by bot id=8029384431
+2025-06-08 19:53:15,089 - aiogram.event - INFO - Update id=567503710 is handled. Duration 97 ms by bot id=8029384431
+2025-06-08 19:53:17,034 - aiogram.event - INFO - Update id=567503711 is handled. Duration 195 ms by bot id=8029384431
+2025-06-08 19:54:05,265 - aiogram.event - INFO - Update id=567503712 is handled. Duration 408 ms by bot id=8029384431
+2025-06-08 19:54:19,623 - aiogram.event - INFO - Update id=567503713 is handled. Duration 318 ms by bot id=8029384431
+2025-06-08 19:54:24,097 - aiogram.event - INFO - Update id=567503714 is handled. Duration 155 ms by bot id=8029384431
+2025-06-08 19:54:29,230 - aiogram.event - INFO - Update id=567503715 is handled. Duration 205 ms by bot id=8029384431
+2025-06-08 19:54:31,668 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-08 19:54:31,675 - ai.ai_processor - INFO - Ответ от OpenAI: {"is_sufficient": false, "recommendation": "Ответ не содержит информации о том, что такое сухогруз и его назначение. Рекомендуется ознакомиться с учебным материалом и предоставить полный ответ, включая основные характеристики и классификацию сухогрузов."}
+2025-06-08 19:54:31,684 - ai.background_tasks - INFO - Анализ ответа 1/3 завершен
+2025-06-08 19:54:34,665 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-08 19:54:34,668 - ai.ai_processor - INFO - Ответ от OpenAI: {"is_sufficient": false, "recommendation": "Ответ не соответствует требованиям задания. Пожалуйста, ознакомьтесь с учебным материалом и перечислите основные типы сухогрузов по размеру: Handysize, Handymax, Panamax, Capesize."}
+2025-06-08 19:54:34,710 - ai.background_tasks - INFO - Анализ ответа 2/3 завершен
+2025-06-08 19:54:38,035 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-08 19:54:38,036 - ai.ai_processor - INFO - Ответ от OpenAI: {
+  "is_sufficient": false,
+  "recommendation": "Ответ не содержит информации о характерных особенностях конструкции сухогрузов, таких как большие грузовые трюмы и палубные краны. Рекомендуется ознакомиться с учебным материалом и предоставить более полный ответ."
+}
+2025-06-08 19:54:38,048 - ai.background_tasks - INFO - Анализ ответа 3/3 завершен
+2025-06-08 19:54:39,300 - ai.background_tasks - INFO - Анализ теста для attempt_id 6 завершен успешно
+2025-06-08 19:54:54,761 - aiogram.event - INFO - Update id=567503716 is handled. Duration 471 ms by bot id=8029384431
+2025-06-08 19:55:38,424 - aiogram.event - INFO - Update id=567503717 is handled. Duration 418 ms by bot id=8029384431
+2025-06-08 19:55:40,365 - aiogram.event - INFO - Update id=567503718 is handled. Duration 92 ms by bot id=8029384431
+2025-06-08 19:55:48,589 - aiogram.event - INFO - Update id=567503719 is handled. Duration 203 ms by bot id=8029384431
+2025-06-08 19:55:53,492 - aiogram.event - INFO - Update id=567503720 is handled. Duration 395 ms by bot id=8029384431
+2025-06-08 19:56:52,794 - aiogram.event - INFO - Update id=567503721 is handled. Duration 382 ms by bot id=8029384431
+2025-06-08 19:57:23,578 - aiogram.event - INFO - Update id=567503722 is handled. Duration 505 ms by bot id=8029384431
+2025-06-08 19:57:34,853 - aiogram.event - INFO - Update id=567503723 is handled. Duration 173 ms by bot id=8029384431
+2025-06-08 19:57:37,780 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-08 19:57:37,786 - ai.ai_processor - INFO - Ответ от OpenAI: {
+  "is_sufficient": true,
+  "recommendation": "Ответ охватывает основное назначение сухогруза, но стоит добавить информацию о его характеристиках и классификации для полноты ответа."
+}
+2025-06-08 19:57:37,831 - ai.background_tasks - INFO - Анализ ответа 1/3 завершен
+2025-06-08 19:57:40,369 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-08 19:57:40,370 - ai.ai_processor - INFO - Ответ от OpenAI: {"is_sufficient": false, "recommendation": "Ответ не содержит перечисления основных типов сухогрузов по размеру. Рекомендуется ознакомиться с классификацией: Handysize, Handymax, Panamax, Capesize."}
+2025-06-08 19:57:40,415 - ai.background_tasks - INFO - Анализ ответа 2/3 завершен
+2025-06-08 19:57:42,986 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-08 19:57:42,989 - ai.ai_processor - INFO - Ответ от OpenAI: {
+  "is_sufficient": false,
+  "recommendation": "Ответ студента не охватывает основные аспекты конструкции сухогрузов, такие как наличие больших грузовых трюмов и палубных кранов для самопогрузки/выгрузки. Рекомендуется дополнить ответ этой информацией."
+}
+2025-06-08 19:57:42,998 - ai.background_tasks - INFO - Анализ ответа 3/3 завершен
+2025-06-08 19:57:44,318 - ai.background_tasks - INFO - Анализ теста для attempt_id 7 завершен успешно
+2025-06-08 19:57:51,164 - aiogram.event - INFO - Update id=567503724 is handled. Duration 510 ms by bot id=8029384431
+2025-06-08 19:58:09,351 - aiogram.event - INFO - Update id=567503725 is handled. Duration 469 ms by bot id=8029384431
+2025-06-08 19:58:10,870 - aiogram.event - INFO - Update id=567503726 is handled. Duration 482 ms by bot id=8029384431
+2025-06-08 19:58:12,978 - aiogram.event - INFO - Update id=567503727 is handled. Duration 103 ms by bot id=8029384431
+2025-06-08 19:58:18,924 - aiogram.event - INFO - Update id=567503728 is handled. Duration 356 ms by bot id=8029384431
+2025-06-08 19:58:26,187 - aiogram.event - INFO - Update id=567503729 is handled. Duration 346 ms by bot id=8029384431
+2025-06-08 19:58:46,155 - aiogram.event - INFO - Update id=567503730 is handled. Duration 408 ms by bot id=8029384431
+2025-06-08 19:58:51,892 - aiogram.event - INFO - Update id=567503731 is handled. Duration 206 ms by bot id=8029384431
+2025-06-08 19:58:53,884 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-08 19:58:53,887 - ai.ai_processor - INFO - Ответ от OpenAI: {
+  "is_sufficient": true,
+  "recommendation": "Ответ охватывает основное назначение сухогруза, но стоит добавить информацию о его характеристиках и классификации для полноты."
+}
+2025-06-08 19:58:53,930 - ai.background_tasks - INFO - Анализ ответа 1/3 завершен
+2025-06-08 19:58:56,600 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-08 19:58:56,602 - ai.ai_processor - INFO - Ответ от OpenAI: {
+  "is_sufficient": true,
+  "recommendation": "Ответ студента полностью соответствует учебному материалу и охватывает основные типы сухогрузов по размеру. Рекомендуется дополнить ответ кратким введением о сухогрузах для более полного понимания темы."
+}
+2025-06-08 19:58:56,647 - ai.background_tasks - INFO - Анализ ответа 2/3 завершен
+2025-06-08 19:58:59,467 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-08 19:58:59,469 - ai.ai_processor - INFO - Ответ от OpenAI: {"is_sufficient": true, "recommendation": "Ответ охватывает основные характеристики конструкции сухогрузов, но можно добавить информацию о классификации по размеру для полноты."}
+2025-06-08 19:58:59,508 - ai.background_tasks - INFO - Анализ ответа 3/3 завершен
+2025-06-08 19:59:00,765 - ai.background_tasks - INFO - Пользователь 881435451 успешно прошел блок 1
+2025-06-08 19:59:00,765 - ai.background_tasks - INFO - Анализ теста для attempt_id 8 завершен успешно
+2025-06-08 19:59:11,369 - aiogram.event - INFO - Update id=567503732 is handled. Duration 90 ms by bot id=8029384431
+2025-06-08 19:59:13,660 - aiogram.event - INFO - Update id=567503733 is handled. Duration 162 ms by bot id=8029384431
+2025-06-08 20:01:07,698 - aiogram.event - INFO - Update id=567503734 is handled. Duration 248 ms by bot id=8029384431
+2025-06-08 20:01:29,896 - aiogram.event - INFO - Update id=567503735 is handled. Duration 406 ms by bot id=8029384431
+2025-06-08 20:01:31,646 - aiogram.event - INFO - Update id=567503736 is handled. Duration 316 ms by bot id=8029384431
+2025-06-08 20:10:15,822 - aiogram.event - INFO - Update id=567503737 is handled. Duration 910 ms by bot id=8029384431
+2025-06-08 20:10:19,933 - aiogram.event - INFO - Update id=567503738 is not handled. Duration 3 ms by bot id=8029384431
+2025-06-08 20:10:24,512 - aiogram.event - INFO - Update id=567503739 is handled. Duration 281 ms by bot id=8029384431
+2025-06-08 20:10:42,979 - aiogram.event - INFO - Update id=567503740 is handled. Duration 565 ms by bot id=8029384431
+2025-06-08 20:10:45,601 - aiogram.event - INFO - Update id=567503741 is handled. Duration 173 ms by bot id=8029384431
+2025-06-08 20:11:11,606 - aiogram.event - INFO - Update id=567503742 is handled. Duration 511 ms by bot id=8029384431
+2025-06-08 20:11:14,924 - aiogram.event - INFO - Update id=567503743 is not handled. Duration 4 ms by bot id=8029384431
+2025-06-08 20:11:23,106 - aiogram.event - INFO - Update id=567503744 is handled. Duration 197 ms by bot id=8029384431
+2025-06-08 20:11:24,643 - aiogram.event - INFO - Update id=567503745 is handled. Duration 200 ms by bot id=8029384431
+2025-06-08 20:26:39,271 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-06-08 20:26:39,271 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8029384431)
+2025-06-08 20:26:51,096 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 8029384431)
+2025-06-08 20:45:33,197 - aiogram.dispatcher - INFO - Polling stopped
+2025-06-08 20:45:33,461 - aiogram.dispatcher - INFO - Polling stopped for bot @ninonononono_bot id=8029384431 - 'nini'
+2025-06-08 20:45:33,465 - __main__ - INFO - Получен сигнал остановки (Ctrl+C)
+2025-06-08 20:45:33,465 - __main__ - INFO - === Завершение работы AI Mentor Bot ===
+2025-06-10 16:32:58,758 - __main__ - INFO - === 🚀 Запуск AI Mentor Bot (Inline Version) ===
+2025-06-10 16:32:58,759 - __main__ - INFO - ✅ Конфигурация успешно загружена
+2025-06-10 16:32:58,759 - __main__ - INFO - 👑 Супер-админов: 1
+2025-06-10 16:32:58,759 - __main__ - INFO - 🛡️ Админов: 1
+2025-06-10 16:32:58,759 - __main__ - INFO - 🎨 Интерфейс: Inline
+2025-06-10 16:32:58,761 - __main__ - INFO - Директория prompts создана или уже существует
+2025-06-10 16:32:58,761 - __main__ - INFO - Директория prompts/templates создана или уже существует
+2025-06-10 16:32:58,762 - __main__ - INFO - Директория logs создана или уже существует
+2025-06-10 16:32:58,762 - __main__ - INFO - Инициализация базы данных...
+2025-06-10 16:32:58,777 - database.db_functions - INFO - База данных успешно инициализирована
+2025-06-10 16:32:58,778 - __main__ - INFO - База данных успешно инициализирована
+2025-06-10 16:32:59,418 - __main__ - INFO - Бот настроен и готов к запуску
+2025-06-10 16:33:00,045 - __main__ - INFO - Бот запущен: @ninonononono_bot (nini)
+2025-06-10 16:33:00,341 - __main__ - INFO - Запуск polling...
+2025-06-10 16:33:00,341 - aiogram.dispatcher - INFO - Start polling
+2025-06-10 16:33:00,454 - aiogram.dispatcher - INFO - Run polling for bot @ninonononono_bot id=8029384431 - 'nini'
+2025-06-10 16:33:14,975 - aiogram.event - INFO - Update id=567503882 is handled. Duration 1003 ms by bot id=8029384431
+2025-06-10 16:33:18,415 - aiogram.event - INFO - Update id=567503883 is not handled. Duration 39 ms by bot id=8029384431
+2025-06-10 16:33:20,424 - aiogram.event - INFO - Update id=567503884 is not handled. Duration 2 ms by bot id=8029384431
+2025-06-10 16:33:32,913 - aiogram.event - INFO - Update id=567503885 is handled. Duration 1127 ms by bot id=8029384431
+2025-06-10 16:33:47,238 - aiogram.event - INFO - Update id=567503886 is handled. Duration 501 ms by bot id=8029384431
+2025-06-10 16:33:50,424 - aiogram.event - INFO - Update id=567503887 is handled. Duration 306 ms by bot id=8029384431
+2025-06-10 16:33:52,574 - aiogram.event - INFO - Update id=567503888 is handled. Duration 306 ms by bot id=8029384431
+2025-06-10 16:33:54,334 - aiogram.event - INFO - Update id=567503889 is handled. Duration 309 ms by bot id=8029384431
+2025-06-10 16:33:57,181 - aiogram.event - INFO - Update id=567503890 is handled. Duration 509 ms by bot id=8029384431
+2025-06-10 16:34:02,611 - aiogram.event - INFO - Update id=567503891 is handled. Duration 265 ms by bot id=8029384431
+2025-06-10 16:34:04,093 - aiogram.event - INFO - Update id=567503892 is handled. Duration 253 ms by bot id=8029384431
+2025-06-10 16:34:05,168 - aiogram.event - INFO - Update id=567503893 is handled. Duration 317 ms by bot id=8029384431
+2025-06-10 16:34:09,546 - aiogram.event - INFO - Update id=567503894 is handled. Duration 382 ms by bot id=8029384431
+2025-06-10 16:34:14,319 - aiogram.event - INFO - Update id=567503895 is handled. Duration 330 ms by bot id=8029384431
+2025-06-10 16:34:17,251 - aiogram.event - INFO - Update id=567503896 is handled. Duration 712 ms by bot id=8029384431
+2025-06-10 16:34:23,396 - aiogram.event - INFO - Update id=567503897 is handled. Duration 306 ms by bot id=8029384431
+2025-06-10 16:34:28,208 - aiogram.event - INFO - Update id=567503898 is handled. Duration 257 ms by bot id=8029384431
+2025-06-10 16:34:53,563 - aiogram.event - INFO - Update id=567503899 is handled. Duration 1411 ms by bot id=8029384431
+2025-06-10 16:34:57,496 - aiogram.event - INFO - Update id=567503900 is handled. Duration 712 ms by bot id=8029384431
+2025-06-10 16:35:04,254 - aiogram.event - INFO - Update id=567503901 is handled. Duration 301 ms by bot id=8029384431
+2025-06-10 16:35:40,508 - aiogram.event - INFO - Update id=567503902 is handled. Duration 678 ms by bot id=8029384431
+2025-06-10 16:35:44,508 - aiogram.event - INFO - Update id=567503903 is handled. Duration 457 ms by bot id=8029384431
+2025-06-10 16:35:47,063 - aiogram.event - INFO - Update id=567503904 is handled. Duration 308 ms by bot id=8029384431
+2025-06-10 16:35:48,123 - ai.ai_processor - INFO - ✅ OpenAI клиент успешно инициализирован
+2025-06-10 16:36:05,904 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-10 16:36:05,907 - ai.ai_processor - INFO - ✅ Ответ от OpenAI: {"is_sufficient": false, "recommendation": "Ответ не содержит информации о сухогрузе и его назначении. Рекомендуется ознакомиться с учебным материалом и предоставить более полный ответ."}
+2025-06-10 16:36:05,956 - ai.background_tasks - INFO - ✅ Анализ ответа 1/3 завершен
+2025-06-10 16:36:27,718 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-10 16:36:27,734 - ai.ai_processor - INFO - ✅ Ответ от OpenAI: {"is_sufficient": false, "recommendation": "Ответ не охватывает основные типы сухогрузов по размеру. Рекомендуется изучить классификацию сухогрузов: Handysize, Handymax, Panamax, Capesize."}
+2025-06-10 16:36:27,748 - ai.background_tasks - INFO - ✅ Анализ ответа 2/3 завершен
+2025-06-10 16:36:45,539 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-10 16:36:45,541 - ai.ai_processor - INFO - ✅ Ответ от OpenAI: {"is_sufficient": false, "recommendation": "Ответ не содержит информации о характерных особенностях конструкции сухогрузов. Рекомендуется ознакомиться с основными характеристиками, такими как грузовые трюмы и палубные краны, а также классификацией по размеру."}
+2025-06-10 16:36:45,556 - ai.background_tasks - INFO - ✅ Анализ ответа 3/3 завершен
+2025-06-10 16:36:49,337 - ai.background_tasks - INFO - ✅ Анализ теста для attempt_id 9 завершен успешно
+2025-06-10 17:04:24,078 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-06-10 17:04:24,078 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8029384431)
+2025-06-10 17:04:35,503 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 8029384431)
+2025-06-10 17:05:48,727 - aiogram.event - INFO - Update id=567503905 is handled. Duration 1539 ms by bot id=8029384431
+2025-06-10 17:05:51,034 - aiogram.event - INFO - Update id=567503906 is handled. Duration 163 ms by bot id=8029384431
+2025-06-10 17:05:57,142 - aiogram.event - INFO - Update id=567503907 is handled. Duration 356 ms by bot id=8029384431
+2025-06-10 17:06:00,395 - aiogram.event - INFO - Update id=567503908 is handled. Duration 306 ms by bot id=8029384431
+2025-06-10 17:10:15,773 - aiogram.dispatcher - INFO - Polling stopped
+2025-06-10 17:10:16,030 - aiogram.dispatcher - INFO - Polling stopped for bot @ninonononono_bot id=8029384431 - 'nini'
+2025-06-10 17:10:16,032 - __main__ - INFO - Получен сигнал остановки (Ctrl+C)
+2025-06-10 17:10:16,032 - __main__ - INFO - === ✅ Завершение работы AI Mentor Bot ===
+2025-06-10 17:10:26,844 - __main__ - INFO - === 🚀 Запуск AI Mentor Bot (Inline Version) ===
+2025-06-10 17:10:26,844 - __main__ - INFO - ✅ Конфигурация успешно загружена
+2025-06-10 17:10:26,844 - __main__ - INFO - 👑 Супер-админов: 1
+2025-06-10 17:10:26,844 - __main__ - INFO - 🛡️ Админов: 1
+2025-06-10 17:10:26,844 - __main__ - INFO - 🎨 Интерфейс: Inline
+2025-06-10 17:10:26,846 - __main__ - INFO - Директория prompts создана или уже существует
+2025-06-10 17:10:26,846 - __main__ - INFO - Директория prompts/templates создана или уже существует
+2025-06-10 17:10:26,847 - __main__ - INFO - Директория logs создана или уже существует
+2025-06-10 17:10:26,847 - __main__ - INFO - Инициализация базы данных...
+2025-06-10 17:10:26,853 - database.db_functions - INFO - База данных успешно инициализирована
+2025-06-10 17:10:26,854 - __main__ - INFO - База данных успешно инициализирована
+2025-06-10 17:10:27,458 - __main__ - INFO - Бот настроен и готов к запуску
+2025-06-10 17:10:28,156 - __main__ - INFO - Бот запущен: @ninonononono_bot (nini)
+2025-06-10 17:10:28,532 - __main__ - INFO - Запуск polling...
+2025-06-10 17:10:28,532 - aiogram.dispatcher - INFO - Start polling
+2025-06-10 17:10:28,644 - aiogram.dispatcher - INFO - Run polling for bot @ninonononono_bot id=8029384431 - 'nini'
+2025-06-10 17:11:46,986 - aiogram.event - INFO - Update id=567503909 is handled. Duration 862 ms by bot id=8029384431
+2025-06-10 17:12:00,444 - aiogram.event - INFO - Update id=567503910 is handled. Duration 307 ms by bot id=8029384431
+2025-06-10 17:12:02,454 - aiogram.event - INFO - Update id=567503911 is handled. Duration 560 ms by bot id=8029384431
+2025-06-10 17:12:12,525 - handlers.user_handlers - ERROR - Ошибка в show_theory_menu: Telegram server says - Bad Request: there is no text in the message to edit
+2025-06-10 17:12:12,831 - aiogram.event - INFO - Update id=567503912 is handled. Duration 406 ms by bot id=8029384431
+2025-06-10 17:12:16,212 - handlers.user_handlers - ERROR - Ошибка в show_theory_menu: Telegram server says - Bad Request: there is no text in the message to edit
+2025-06-10 17:12:16,280 - aiogram.event - INFO - Update id=567503913 is handled. Duration 176 ms by bot id=8029384431
+2025-06-10 17:12:17,135 - handlers.user_handlers - ERROR - Ошибка в start_test: Telegram server says - Bad Request: there is no text in the message to edit
+2025-06-10 17:12:17,236 - aiogram.event - INFO - Update id=567503914 is handled. Duration 245 ms by bot id=8029384431
+2025-06-10 17:13:02,071 - aiogram.dispatcher - INFO - Polling stopped
+2025-06-10 17:13:02,324 - aiogram.dispatcher - INFO - Polling stopped for bot @ninonononono_bot id=8029384431 - 'nini'
+2025-06-10 17:13:02,326 - __main__ - INFO - Получен сигнал остановки (Ctrl+C)
+2025-06-10 17:13:02,326 - __main__ - INFO - === ✅ Завершение работы AI Mentor Bot ===
+2025-06-10 17:13:38,347 - __main__ - INFO - === 🚀 Запуск AI Mentor Bot (Inline Version) ===
+2025-06-10 17:13:38,348 - __main__ - INFO - ✅ Конфигурация успешно загружена
+2025-06-10 17:13:38,348 - __main__ - INFO - 👑 Супер-админов: 1
+2025-06-10 17:13:38,349 - __main__ - INFO - 🛡️ Админов: 1
+2025-06-10 17:13:38,349 - __main__ - INFO - 🎨 Интерфейс: Inline
+2025-06-10 17:13:38,351 - __main__ - INFO - Директория prompts создана или уже существует
+2025-06-10 17:13:38,351 - __main__ - INFO - Директория prompts/templates создана или уже существует
+2025-06-10 17:13:38,352 - __main__ - INFO - Директория logs создана или уже существует
+2025-06-10 17:13:38,352 - __main__ - INFO - Инициализация базы данных...
+2025-06-10 17:13:38,367 - database.db_functions - INFO - База данных успешно инициализирована
+2025-06-10 17:13:38,368 - __main__ - INFO - База данных успешно инициализирована
+2025-06-10 17:13:39,134 - __main__ - INFO - Бот настроен и готов к запуску
+2025-06-10 17:13:39,675 - __main__ - INFO - Бот запущен: @ninonononono_bot (nini)
+2025-06-10 17:13:39,998 - __main__ - INFO - Запуск polling...
+2025-06-10 17:13:39,999 - aiogram.dispatcher - INFO - Start polling
+2025-06-10 17:13:40,070 - aiogram.dispatcher - INFO - Run polling for bot @ninonononono_bot id=8029384431 - 'nini'
+2025-06-10 17:13:41,922 - aiogram.event - INFO - Update id=567503915 is handled. Duration 593 ms by bot id=8029384431
+2025-06-10 17:13:42,948 - aiogram.event - INFO - Update id=567503916 is handled. Duration 206 ms by bot id=8029384431
+2025-06-10 17:13:44,586 - aiogram.event - INFO - Update id=567503917 is handled. Duration 384 ms by bot id=8029384431
+2025-06-10 17:41:09,297 - aiogram.dispatcher - INFO - Polling stopped
+2025-06-10 17:41:09,550 - aiogram.dispatcher - INFO - Polling stopped for bot @ninonononono_bot id=8029384431 - 'nini'
+2025-06-10 17:41:09,552 - __main__ - INFO - Получен сигнал остановки (Ctrl+C)
+2025-06-10 17:41:09,552 - __main__ - INFO - === ✅ Завершение работы AI Mentor Bot ===
+2025-06-10 17:41:29,951 - __main__ - INFO - === 🚀 Запуск AI Mentor Bot (Inline Version) ===
+2025-06-10 17:41:29,951 - __main__ - INFO - ✅ Конфигурация успешно загружена
+2025-06-10 17:41:29,952 - __main__ - INFO - 👑 Супер-админов: 1
+2025-06-10 17:41:29,952 - __main__ - INFO - 🛡️ Админов: 1
+2025-06-10 17:41:29,952 - __main__ - INFO - 🎨 Интерфейс: Inline
+2025-06-10 17:41:29,954 - __main__ - INFO - Директория prompts создана или уже существует
+2025-06-10 17:41:29,955 - __main__ - INFO - Директория prompts/templates создана или уже существует
+2025-06-10 17:41:29,955 - __main__ - INFO - Директория logs создана или уже существует
+2025-06-10 17:41:29,955 - __main__ - INFO - Инициализация базы данных...
+2025-06-10 17:41:29,962 - database.db_functions - INFO - База данных успешно инициализирована
+2025-06-10 17:41:29,963 - __main__ - INFO - База данных успешно инициализирована
+2025-06-10 17:41:30,557 - __main__ - INFO - Бот настроен и готов к запуску
+2025-06-10 17:41:31,664 - __main__ - INFO - Бот запущен: @ninonononono_bot (nini)
+2025-06-10 17:41:32,048 - __main__ - INFO - Запуск polling...
+2025-06-10 17:41:32,048 - aiogram.dispatcher - INFO - Start polling
+2025-06-10 17:41:32,187 - aiogram.dispatcher - INFO - Run polling for bot @ninonononono_bot id=8029384431 - 'nini'
+2025-06-10 17:41:42,506 - aiogram.event - INFO - Update id=567503918 is handled. Duration 344 ms by bot id=8029384431
+2025-06-10 17:41:43,776 - aiogram.event - INFO - Update id=567503919 is handled. Duration 205 ms by bot id=8029384431
+2025-06-10 17:41:45,208 - aiogram.event - INFO - Update id=567503920 is handled. Duration 411 ms by bot id=8029384431
+2025-06-10 17:41:49,713 - aiogram.event - INFO - Update id=567503921 is handled. Duration 202 ms by bot id=8029384431
+2025-06-10 17:42:20,639 - aiogram.event - INFO - Update id=567503922 is handled. Duration 348 ms by bot id=8029384431
+2025-06-10 17:42:26,210 - aiogram.event - INFO - Update id=567503923 is handled. Duration 244 ms by bot id=8029384431
+2025-06-10 17:42:28,400 - aiogram.event - INFO - Update id=567503924 is handled. Duration 282 ms by bot id=8029384431
+2025-06-10 17:42:30,777 - aiogram.event - INFO - Update id=567503925 is handled. Duration 511 ms by bot id=8029384431
+2025-06-10 17:42:31,649 - ai.ai_processor - INFO - ✅ OpenAI клиент успешно инициализирован
+2025-06-10 17:42:40,488 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-10 17:42:40,499 - ai.ai_processor - INFO - ✅ Ответ от OpenAI: {"is_sufficient": false, "recommendation": "Пожалуйста, ознакомьтесь с определением сухогруза и его основным назначением, указанным в учебном материале."}
+2025-06-10 17:42:40,552 - ai.background_tasks - INFO - ✅ Анализ ответа 1/3 завершен
+2025-06-10 17:42:53,991 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-10 17:42:53,992 - ai.ai_processor - INFO - ✅ Ответ от OpenAI: {"is_sufficient": false, "recommendation": "Ответ не содержит информации о типах сухогрузов по размеру. Рекомендуется ознакомиться с классификацией: Handysize, Handymax, Panamax, Capesize."}
+2025-06-10 17:42:54,063 - ai.background_tasks - INFO - ✅ Анализ ответа 2/3 завершен
+2025-06-10 17:43:13,479 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-10 17:43:13,481 - ai.ai_processor - INFO - ✅ Ответ от OpenAI: {"is_sufficient": false, "recommendation": "Ответ не содержит информации о характерных особенностях конструкции сухогрузов. Рекомендуется ознакомиться с учебным материалом, который описывает основные характеристики, такие как большие грузовые трюмы и палубные краны."}
+2025-06-10 17:43:13,546 - ai.background_tasks - INFO - ✅ Анализ ответа 3/3 завершен
+2025-06-10 17:43:15,081 - ai.background_tasks - INFO - ✅ Анализ теста для attempt_id 10 завершен успешно
+2025-06-10 17:44:09,471 - aiogram.event - INFO - Update id=567503926 is handled. Duration 591 ms by bot id=8029384431
+2025-06-10 17:44:13,486 - aiogram.event - INFO - Update id=567503927 is handled. Duration 202 ms by bot id=8029384431
+2025-06-10 17:44:25,535 - aiogram.event - INFO - Update id=567503928 is handled. Duration 206 ms by bot id=8029384431
+2025-06-10 17:44:27,247 - aiogram.event - INFO - Update id=567503929 is handled. Duration 186 ms by bot id=8029384431
+2025-06-10 17:44:29,934 - aiogram.event - INFO - Update id=567503930 is handled. Duration 187 ms by bot id=8029384431
+2025-06-10 17:44:32,105 - aiogram.event - INFO - Update id=567503931 is handled. Duration 390 ms by bot id=8029384431
+2025-06-10 17:44:57,887 - aiogram.event - INFO - Update id=567503932 is handled. Duration 571 ms by bot id=8029384431
+2025-06-10 17:45:01,923 - aiogram.event - INFO - Update id=567503933 is handled. Duration 584 ms by bot id=8029384431
+2025-06-10 17:45:12,173 - aiogram.event - INFO - Update id=567503934 is handled. Duration 242 ms by bot id=8029384431
+2025-06-10 17:45:14,279 - aiogram.event - INFO - Update id=567503935 is handled. Duration 374 ms by bot id=8029384431
+2025-06-10 17:45:16,847 - aiogram.event - INFO - Update id=567503936 is handled. Duration 253 ms by bot id=8029384431
+2025-06-10 17:45:21,277 - aiogram.event - INFO - Update id=567503937 is handled. Duration 203 ms by bot id=8029384431
+2025-06-10 17:45:26,293 - aiogram.event - INFO - Update id=567503938 is handled. Duration 509 ms by bot id=8029384431
+2025-06-10 17:45:30,781 - handlers.user_handlers - ERROR - Ошибка в show_theory_menu: Telegram server says - Bad Request: there is no text in the message to edit
+2025-06-10 17:45:30,872 - aiogram.event - INFO - Update id=567503939 is handled. Duration 155 ms by bot id=8029384431
+2025-06-10 17:45:35,271 - handlers.user_handlers - ERROR - Ошибка в show_theory_menu: Telegram server says - Bad Request: there is no text in the message to edit
+2025-06-10 17:45:35,408 - aiogram.event - INFO - Update id=567503940 is handled. Duration 203 ms by bot id=8029384431
+2025-06-10 17:45:45,952 - handlers.user_handlers - ERROR - Ошибка в start_test: Telegram server says - Bad Request: there is no text in the message to edit
+2025-06-10 17:45:46,058 - aiogram.event - INFO - Update id=567503941 is handled. Duration 305 ms by bot id=8029384431
+2025-06-11 02:47:10,749 - __main__ - INFO - === 🚀 Запуск AI Mentor Bot (Inline Version) ===
+2025-06-11 02:47:10,750 - __main__ - INFO - ✅ Конфигурация успешно загружена
+2025-06-11 02:47:10,751 - __main__ - INFO - 👑 Супер-админов: 1
+2025-06-11 02:47:10,751 - __main__ - INFO - 🛡️ Админов: 1
+2025-06-11 02:47:10,751 - __main__ - INFO - 🎨 Интерфейс: Inline
+2025-06-11 02:47:10,754 - __main__ - INFO - Директория prompts создана или уже существует
+2025-06-11 02:47:10,754 - __main__ - INFO - Директория prompts/templates создана или уже существует
+2025-06-11 02:47:10,755 - __main__ - INFO - Директория logs создана или уже существует
+2025-06-11 02:47:10,755 - __main__ - INFO - Инициализация базы данных...
+2025-06-11 02:47:10,763 - database.db_functions - INFO - База данных успешно инициализирована
+2025-06-11 02:47:10,763 - __main__ - INFO - База данных успешно инициализирована
+2025-06-11 02:47:11,540 - __main__ - INFO - Бот настроен и готов к запуску
+2025-06-11 02:47:12,087 - __main__ - INFO - Бот запущен: @ninonononono_bot (nini)
+2025-06-11 02:47:12,549 - __main__ - INFO - Запуск polling...
+2025-06-11 02:47:12,550 - aiogram.dispatcher - INFO - Start polling
+2025-06-11 02:47:12,690 - aiogram.dispatcher - INFO - Run polling for bot @ninonononono_bot id=8029384431 - 'nini'
+2025-06-11 02:47:23,543 - aiogram.event - INFO - Update id=567503973 is handled. Duration 409 ms by bot id=8029384431
+2025-06-11 02:47:24,853 - aiogram.event - INFO - Update id=567503974 is handled. Duration 285 ms by bot id=8029384431
+2025-06-11 02:47:26,173 - aiogram.event - INFO - Update id=567503975 is handled. Duration 406 ms by bot id=8029384431
+2025-06-11 02:47:27,720 - aiogram.event - INFO - Update id=567503976 is handled. Duration 78 ms by bot id=8029384431
+2025-06-11 02:47:31,222 - aiogram.event - INFO - Update id=567503977 is handled. Duration 306 ms by bot id=8029384431
+2025-06-11 02:47:40,541 - aiogram.event - INFO - Update id=567503978 is handled. Duration 102 ms by bot id=8029384431
+2025-06-11 02:47:43,986 - aiogram.event - INFO - Update id=567503979 is handled. Duration 314 ms by bot id=8029384431
+2025-06-11 02:47:45,482 - aiogram.event - INFO - Update id=567503980 is handled. Duration 462 ms by bot id=8029384431
+2025-06-11 02:47:46,852 - aiogram.event - INFO - Update id=567503981 is handled. Duration 453 ms by bot id=8029384431
+2025-06-11 02:47:47,937 - ai.ai_processor - INFO - ✅ OpenAI клиент успешно инициализирован
+2025-06-11 02:47:50,977 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 02:47:50,984 - ai.ai_processor - INFO - ✅ Ответ от OpenAI: {"is_sufficient": false, "recommendation": "Ответ не содержит информации о сухогрузе и его назначении. Рекомендуется ознакомиться с учебным материалом и дать ответ, который включает определение сухогруза и его основные характеристики."}
+2025-06-11 02:47:51,027 - ai.background_tasks - INFO - ✅ Анализ ответа 1/3 завершен
+2025-06-11 02:47:54,574 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 02:47:54,576 - ai.ai_processor - INFO - ✅ Ответ от OpenAI: {"is_sufficient": false, "recommendation": "Ответ не соответствует заданию. Необходимо перечислить основные типы сухогрузов по размеру: Handysize, Handymax, Panamax, Capesize."}
+2025-06-11 02:47:54,587 - ai.background_tasks - INFO - ✅ Анализ ответа 2/3 завершен
+2025-06-11 02:47:57,949 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 02:47:57,951 - ai.ai_processor - INFO - ✅ Ответ от OpenAI: {
+  "is_sufficient": false,
+  "recommendation": "Ответ не соответствует заданному вопросу. Пожалуйста, ознакомьтесь с учебным материалом и укажите основные характеристики конструкции сухогрузов, такие как большие грузовые трюмы и палубные краны для самопогрузки/выгрузки."
+}
+2025-06-11 02:47:57,962 - ai.background_tasks - INFO - ✅ Анализ ответа 3/3 завершен
+2025-06-11 02:47:59,160 - ai.background_tasks - INFO - ✅ Анализ теста для attempt_id 11 завершен успешно
+2025-06-11 02:48:10,310 - aiogram.event - INFO - Update id=567503982 is handled. Duration 244 ms by bot id=8029384431
+2025-06-11 02:48:12,282 - aiogram.event - INFO - Update id=567503983 is handled. Duration 365 ms by bot id=8029384431
+2025-06-11 02:55:29,398 - aiogram.dispatcher - INFO - Polling stopped
+2025-06-11 02:55:29,651 - aiogram.dispatcher - INFO - Polling stopped for bot @ninonononono_bot id=8029384431 - 'nini'
+2025-06-11 02:55:29,653 - __main__ - INFO - Получен сигнал остановки (Ctrl+C)
+2025-06-11 02:55:29,653 - __main__ - INFO - === ✅ Завершение работы AI Mentor Bot ===
+2025-06-11 02:55:39,594 - __main__ - INFO - === 🚀 Запуск AI Mentor Bot (Inline Version) ===
+2025-06-11 02:55:39,594 - __main__ - INFO - ✅ Конфигурация успешно загружена
+2025-06-11 02:55:39,595 - __main__ - INFO - 👑 Супер-админов: 1
+2025-06-11 02:55:39,595 - __main__ - INFO - 🛡️ Админов: 1
+2025-06-11 02:55:39,595 - __main__ - INFO - 🎨 Интерфейс: Inline
+2025-06-11 02:55:39,597 - __main__ - INFO - Директория prompts создана или уже существует
+2025-06-11 02:55:39,597 - __main__ - INFO - Директория prompts/templates создана или уже существует
+2025-06-11 02:55:39,598 - __main__ - INFO - Директория logs создана или уже существует
+2025-06-11 02:55:39,598 - __main__ - INFO - Инициализация базы данных...
+2025-06-11 02:55:39,606 - database.db_functions - INFO - База данных успешно инициализирована
+2025-06-11 02:55:39,606 - __main__ - INFO - База данных успешно инициализирована
+2025-06-11 02:55:40,282 - __main__ - INFO - Бот настроен и готов к запуску
+2025-06-11 02:55:40,814 - __main__ - INFO - Бот запущен: @ninonononono_bot (nini)
+2025-06-11 02:55:41,072 - __main__ - INFO - Запуск polling...
+2025-06-11 02:55:41,072 - aiogram.dispatcher - INFO - Start polling
+2025-06-11 02:55:41,220 - aiogram.dispatcher - INFO - Run polling for bot @ninonononono_bot id=8029384431 - 'nini'
+2025-06-11 02:55:48,795 - aiogram.event - INFO - Update id=567503984 is handled. Duration 382 ms by bot id=8029384431
+2025-06-11 02:55:51,251 - aiogram.event - INFO - Update id=567503985 is handled. Duration 327 ms by bot id=8029384431
+2025-06-11 02:55:52,346 - aiogram.event - INFO - Update id=567503986 is handled. Duration 302 ms by bot id=8029384431
+2025-06-11 02:55:53,543 - handlers.user_handlers - ERROR - Ошибка в start_new_test: Telegram server says - Bad Request: there is no text in the message to edit
+2025-06-11 02:55:53,612 - aiogram.event - INFO - Update id=567503987 is handled. Duration 199 ms by bot id=8029384431
+2025-06-11 02:55:55,113 - handlers.user_handlers - ERROR - Ошибка в start_test: Telegram server says - Bad Request: there is no text in the message to edit
+2025-06-11 02:55:55,214 - aiogram.event - INFO - Update id=567503988 is handled. Duration 172 ms by bot id=8029384431
+2025-06-11 02:55:56,166 - aiogram.event - INFO - Update id=567503989 is handled. Duration 348 ms by bot id=8029384431
+2025-06-11 02:56:26,440 - aiogram.event - INFO - Update id=567503990 is handled. Duration 473 ms by bot id=8029384431
+2025-06-11 02:56:27,774 - aiogram.event - INFO - Update id=567503991 is handled. Duration 238 ms by bot id=8029384431
+2025-06-11 02:56:31,495 - aiogram.event - INFO - Update id=567503992 is handled. Duration 305 ms by bot id=8029384431
+2025-06-11 02:56:32,929 - aiogram.event - INFO - Update id=567503993 is handled. Duration 303 ms by bot id=8029384431
+2025-06-11 02:56:34,402 - aiogram.event - INFO - Update id=567503994 is handled. Duration 234 ms by bot id=8029384431
+2025-06-11 02:56:37,174 - aiogram.event - INFO - Update id=567503995 is handled. Duration 146 ms by bot id=8029384431
+2025-06-11 02:56:39,687 - aiogram.event - INFO - Update id=567503996 is handled. Duration 305 ms by bot id=8029384431
+2025-06-11 02:56:44,872 - aiogram.event - INFO - Update id=567503997 is handled. Duration 165 ms by bot id=8029384431
+2025-06-11 02:56:46,497 - database.db_functions - INFO - Тест 12 отменен для пользователя 881435451
+2025-06-11 02:56:46,669 - aiogram.event - INFO - Update id=567503998 is handled. Duration 221 ms by bot id=8029384431
+2025-06-11 02:56:48,260 - aiogram.event - INFO - Update id=567503999 is handled. Duration 380 ms by bot id=8029384431
+2025-06-11 02:56:49,595 - aiogram.event - INFO - Update id=567504000 is handled. Duration 281 ms by bot id=8029384431
+2025-06-11 02:56:51,134 - database.db_functions - INFO - Тест 13 отменен для пользователя 881435451
+2025-06-11 02:56:51,290 - aiogram.event - INFO - Update id=567504001 is handled. Duration 208 ms by bot id=8029384431
+2025-06-11 02:56:52,347 - aiogram.event - INFO - Update id=567504002 is handled. Duration 165 ms by bot id=8029384431
+2025-06-11 02:56:53,511 - aiogram.event - INFO - Update id=567504003 is handled. Duration 306 ms by bot id=8029384431
+2025-06-11 02:56:54,536 - aiogram.event - INFO - Update id=567504004 is handled. Duration 306 ms by bot id=8029384431
+2025-06-11 02:56:55,502 - aiogram.event - INFO - Update id=567504005 is handled. Duration 248 ms by bot id=8029384431
+2025-06-11 02:56:56,583 - handlers.user_handlers - ERROR - Ошибка в start_new_test: Telegram server says - Bad Request: there is no text in the message to edit
+2025-06-11 02:56:56,647 - aiogram.event - INFO - Update id=567504006 is handled. Duration 233 ms by bot id=8029384431
+2025-06-11 03:17:44,398 - aiogram.dispatcher - INFO - Polling stopped
+2025-06-11 03:17:44,661 - aiogram.dispatcher - INFO - Polling stopped for bot @ninonononono_bot id=8029384431 - 'nini'
+2025-06-11 03:17:44,663 - __main__ - INFO - Получен сигнал остановки (Ctrl+C)
+2025-06-11 03:17:44,664 - __main__ - INFO - === ✅ Завершение работы AI Mentor Bot ===
+2025-06-11 03:17:53,809 - __main__ - INFO - === 🚀 Запуск AI Mentor Bot (Inline Version) ===
+2025-06-11 03:17:53,810 - __main__ - INFO - ✅ Конфигурация успешно загружена
+2025-06-11 03:17:53,810 - __main__ - INFO - 👑 Супер-админов: 1
+2025-06-11 03:17:53,810 - __main__ - INFO - 🛡️ Админов: 1
+2025-06-11 03:17:53,810 - __main__ - INFO - 🎨 Интерфейс: Inline
+2025-06-11 03:17:53,812 - __main__ - INFO - Директория prompts создана или уже существует
+2025-06-11 03:17:53,812 - __main__ - INFO - Директория prompts/templates создана или уже существует
+2025-06-11 03:17:53,813 - __main__ - INFO - Директория logs создана или уже существует
+2025-06-11 03:17:53,813 - __main__ - INFO - Инициализация базы данных...
+2025-06-11 03:17:53,821 - database.db_functions - INFO - База данных успешно инициализирована
+2025-06-11 03:17:53,822 - __main__ - INFO - База данных успешно инициализирована
+2025-06-11 03:17:54,620 - __main__ - INFO - Бот настроен и готов к запуску
+2025-06-11 03:17:55,138 - __main__ - INFO - Бот запущен: @ninonononono_bot (nini)
+2025-06-11 03:17:55,425 - __main__ - INFO - Запуск polling...
+2025-06-11 03:17:55,426 - aiogram.dispatcher - INFO - Start polling
+2025-06-11 03:17:55,505 - aiogram.dispatcher - INFO - Run polling for bot @ninonononono_bot id=8029384431 - 'nini'
+2025-06-11 03:20:03,824 - aiogram.event - INFO - Update id=567504007 is handled. Duration 425 ms by bot id=8029384431
+2025-06-11 03:20:05,258 - aiogram.event - INFO - Update id=567504008 is handled. Duration 316 ms by bot id=8029384431
+2025-06-11 03:20:06,282 - aiogram.event - INFO - Update id=567504009 is handled. Duration 306 ms by bot id=8029384431
+2025-06-11 03:20:07,231 - handlers.user_handlers - ERROR - Ошибка в start_test: Telegram server says - Bad Request: there is no text in the message to edit
+2025-06-11 03:20:07,418 - aiogram.event - INFO - Update id=567504010 is handled. Duration 360 ms by bot id=8029384431
+2025-06-11 03:20:08,944 - handlers.user_handlers - ERROR - Ошибка в start_test: Telegram server says - Bad Request: there is no text in the message to edit
+2025-06-11 03:20:09,050 - aiogram.event - INFO - Update id=567504011 is handled. Duration 183 ms by bot id=8029384431
+2025-06-11 03:20:15,356 - aiogram.event - INFO - Update id=567504012 is handled. Duration 260 ms by bot id=8029384431
+2025-06-11 03:20:16,927 - aiogram.event - INFO - Update id=567504013 is handled. Duration 204 ms by bot id=8029384431
+2025-06-11 03:20:19,146 - aiogram.event - INFO - Update id=567504014 is handled. Duration 164 ms by bot id=8029384431
+2025-06-11 03:20:20,373 - aiogram.event - INFO - Update id=567504015 is handled. Duration 163 ms by bot id=8029384431
+2025-06-11 03:20:26,312 - aiogram.event - INFO - Update id=567504016 is handled. Duration 264 ms by bot id=8029384431
+2025-06-11 03:20:29,836 - aiogram.event - INFO - Update id=567504017 is handled. Duration 408 ms by bot id=8029384431
+2025-06-11 03:28:38,693 - aiogram.dispatcher - INFO - Polling stopped
+2025-06-11 03:28:38,953 - aiogram.dispatcher - INFO - Polling stopped for bot @ninonononono_bot id=8029384431 - 'nini'
+2025-06-11 03:28:38,957 - __main__ - INFO - Получен сигнал остановки (Ctrl+C)
+2025-06-11 03:28:38,957 - __main__ - INFO - === ✅ Завершение работы AI Mentor Bot ===
+2025-06-11 03:28:48,293 - __main__ - INFO - === 🚀 Запуск AI Mentor Bot (Inline Version) ===
+2025-06-11 03:28:48,294 - __main__ - INFO - ✅ Конфигурация успешно загружена
+2025-06-11 03:28:48,294 - __main__ - INFO - 👑 Супер-админов: 1
+2025-06-11 03:28:48,294 - __main__ - INFO - 🛡️ Админов: 1
+2025-06-11 03:28:48,295 - __main__ - INFO - 🎨 Интерфейс: Inline
+2025-06-11 03:28:48,297 - __main__ - INFO - Директория prompts создана или уже существует
+2025-06-11 03:28:48,297 - __main__ - INFO - Директория prompts/templates создана или уже существует
+2025-06-11 03:28:48,297 - __main__ - INFO - Директория logs создана или уже существует
+2025-06-11 03:28:48,297 - __main__ - INFO - Инициализация базы данных...
+2025-06-11 03:28:48,302 - database.db_functions - INFO - База данных успешно инициализирована
+2025-06-11 03:28:48,303 - __main__ - INFO - База данных успешно инициализирована
+2025-06-11 03:28:49,107 - __main__ - INFO - Бот настроен и готов к запуску
+2025-06-11 03:28:49,870 - __main__ - INFO - Бот запущен: @ninonononono_bot (nini)
+2025-06-11 03:28:50,135 - __main__ - INFO - Запуск polling...
+2025-06-11 03:28:50,136 - aiogram.dispatcher - INFO - Start polling
+2025-06-11 03:28:50,275 - aiogram.dispatcher - INFO - Run polling for bot @ninonononono_bot id=8029384431 - 'nini'
+2025-06-11 03:28:52,921 - aiogram.event - INFO - Update id=567504018 is handled. Duration 286 ms by bot id=8029384431
+2025-06-11 03:28:54,044 - aiogram.event - INFO - Update id=567504019 is handled. Duration 240 ms by bot id=8029384431
+2025-06-11 03:28:55,047 - aiogram.event - INFO - Update id=567504020 is handled. Duration 230 ms by bot id=8029384431
+2025-06-11 03:28:56,203 - aiogram.event - INFO - Update id=567504021 is handled. Duration 299 ms by bot id=8029384431
+2025-06-11 03:29:01,440 - database.db_functions - INFO - Тест 14 отменен для пользователя 881435451
+2025-06-11 03:29:01,742 - aiogram.event - INFO - Update id=567504022 is handled. Duration 380 ms by bot id=8029384431
+2025-06-11 03:29:05,431 - aiogram.event - INFO - Update id=567504023 is handled. Duration 203 ms by bot id=8029384431
+2025-06-11 03:29:06,964 - aiogram.event - INFO - Update id=567504024 is handled. Duration 305 ms by bot id=8029384431
+2025-06-11 03:29:08,580 - aiogram.event - INFO - Update id=567504025 is handled. Duration 369 ms by bot id=8029384431
+2025-06-11 03:29:10,958 - aiogram.event - INFO - Update id=567504026 is handled. Duration 610 ms by bot id=8029384431
+2025-06-11 04:06:18,118 - aiogram.dispatcher - INFO - Polling stopped
+2025-06-11 04:06:18,370 - aiogram.dispatcher - INFO - Polling stopped for bot @ninonononono_bot id=8029384431 - 'nini'
+2025-06-11 04:06:18,373 - __main__ - INFO - Получен сигнал остановки (Ctrl+C)
+2025-06-11 04:06:18,373 - __main__ - INFO - === ✅ Завершение работы AI Mentor Bot ===
+2025-06-11 15:39:06,458 - __main__ - INFO - === 🚀 Запуск AI Mentor Bot (Inline Version) ===
+2025-06-11 15:39:06,459 - __main__ - INFO - ✅ Конфигурация успешно загружена
+2025-06-11 15:39:06,459 - __main__ - INFO - 👑 Супер-админов: 1
+2025-06-11 15:39:06,459 - __main__ - INFO - 🛡️ Админов: 1
+2025-06-11 15:39:06,459 - __main__ - INFO - 🎨 Интерфейс: Inline
+2025-06-11 15:39:06,461 - __main__ - INFO - Директория prompts создана или уже существует
+2025-06-11 15:39:06,461 - __main__ - INFO - Директория prompts/templates создана или уже существует
+2025-06-11 15:39:06,462 - __main__ - INFO - Директория logs создана или уже существует
+2025-06-11 15:39:06,462 - __main__ - INFO - Инициализация базы данных...
+2025-06-11 15:39:06,469 - database.db_functions - INFO - База данных успешно инициализирована
+2025-06-11 15:39:06,469 - __main__ - INFO - База данных успешно инициализирована
+2025-06-11 15:39:07,212 - __main__ - INFO - Бот настроен и готов к запуску
+2025-06-11 15:39:07,535 - __main__ - INFO - Бот запущен: @ninonononono_bot (nini)
+2025-06-11 15:39:07,841 - __main__ - INFO - Запуск polling...
+2025-06-11 15:39:07,842 - aiogram.dispatcher - INFO - Start polling
+2025-06-11 15:39:07,908 - aiogram.dispatcher - INFO - Run polling for bot @ninonononono_bot id=8029384431 - 'nini'
+2025-06-11 15:39:13,202 - aiogram.event - INFO - Update id=567504069 is handled. Duration 315 ms by bot id=8029384431
+2025-06-11 15:39:14,333 - aiogram.event - INFO - Update id=567504070 is handled. Duration 265 ms by bot id=8029384431
+2025-06-11 15:39:15,607 - aiogram.event - INFO - Update id=567504071 is handled. Duration 245 ms by bot id=8029384431
+2025-06-11 15:39:16,676 - aiogram.event - INFO - Update id=567504072 is handled. Duration 351 ms by bot id=8029384431
+2025-06-11 15:39:19,173 - aiogram.event - INFO - Update id=567504073 is handled. Duration 284 ms by bot id=8029384431
+2025-06-11 15:39:20,220 - database.db_functions - INFO - Тест 15 отменен для пользователя 881435451
+2025-06-11 15:39:20,448 - aiogram.event - INFO - Update id=567504074 is handled. Duration 242 ms by bot id=8029384431
+2025-06-11 15:39:21,108 - aiogram.event - INFO - Update id=567504075 is handled. Duration 171 ms by bot id=8029384431
+2025-06-11 15:39:27,169 - aiogram.event - INFO - Update id=567504076 is handled. Duration 437 ms by bot id=8029384431
+2025-06-11 15:39:36,447 - aiogram.event - INFO - Update id=567504077 is handled. Duration 575 ms by bot id=8029384431
+2025-06-11 15:39:40,883 - aiogram.event - INFO - Update id=567504078 is handled. Duration 302 ms by bot id=8029384431
+2025-06-11 15:39:43,711 - handlers.user_handlers - ERROR - Ошибка в start_new_test: Telegram server says - Bad Request: there is no text in the message to edit
+2025-06-11 15:39:43,781 - aiogram.event - INFO - Update id=567504079 is handled. Duration 155 ms by bot id=8029384431
+2025-06-11 15:39:45,411 - aiogram.event - INFO - Update id=567504080 is handled. Duration 435 ms by bot id=8029384431
+2025-06-11 15:39:50,858 - aiogram.event - INFO - Update id=567504081 is handled. Duration 315 ms by bot id=8029384431
+2025-06-11 15:39:51,871 - aiogram.event - INFO - Update id=567504082 is handled. Duration 310 ms by bot id=8029384431
+2025-06-11 15:39:52,925 - aiogram.event - INFO - Update id=567504083 is handled. Duration 166 ms by bot id=8029384431
+2025-06-11 15:39:53,550 - aiogram.event - INFO - Update id=567504084 is handled. Duration 269 ms by bot id=8029384431
+2025-06-11 15:39:54,575 - aiogram.event - INFO - Update id=567504085 is handled. Duration 274 ms by bot id=8029384431
+2025-06-11 15:39:56,232 - aiogram.event - INFO - Update id=567504086 is handled. Duration 249 ms by bot id=8029384431
+2025-06-11 15:39:57,396 - aiogram.event - INFO - Update id=567504087 is handled. Duration 368 ms by bot id=8029384431
+2025-06-11 15:40:00,083 - aiogram.event - INFO - Update id=567504088 is handled. Duration 173 ms by bot id=8029384431
+2025-06-11 15:40:01,001 - aiogram.event - INFO - Update id=567504089 is handled. Duration 187 ms by bot id=8029384431
+2025-06-11 15:40:03,321 - aiogram.event - INFO - Update id=567504090 is handled. Duration 182 ms by bot id=8029384431
+2025-06-11 15:40:04,150 - aiogram.event - INFO - Update id=567504091 is handled. Duration 253 ms by bot id=8029384431
+2025-06-11 15:40:05,130 - aiogram.event - INFO - Update id=567504092 is handled. Duration 236 ms by bot id=8029384431
+2025-06-11 15:40:06,560 - aiogram.event - INFO - Update id=567504093 is handled. Duration 531 ms by bot id=8029384431
+2025-06-11 15:40:08,108 - aiogram.event - INFO - Update id=567504094 is handled. Duration 681 ms by bot id=8029384431
+2025-06-11 15:40:19,311 - aiogram.event - INFO - Update id=567504095 is handled. Duration 161 ms by bot id=8029384431
+2025-06-11 15:40:21,018 - aiogram.event - INFO - Update id=567504096 is handled. Duration 198 ms by bot id=8029384431
+2025-06-11 15:40:22,556 - aiogram.event - INFO - Update id=567504097 is handled. Duration 259 ms by bot id=8029384431
+2025-06-11 15:40:23,755 - aiogram.event - INFO - Update id=567504098 is handled. Duration 239 ms by bot id=8029384431
+2025-06-11 15:40:30,209 - aiogram.event - INFO - Update id=567504099 is handled. Duration 320 ms by bot id=8029384431
+2025-06-11 15:40:34,545 - aiogram.event - INFO - Update id=567504100 is handled. Duration 305 ms by bot id=8029384431
+2025-06-11 15:40:35,877 - aiogram.event - INFO - Update id=567504101 is handled. Duration 476 ms by bot id=8029384431
+2025-06-11 15:40:40,281 - aiogram.event - INFO - Update id=567504102 is handled. Duration 197 ms by bot id=8029384431
+2025-06-11 15:40:41,531 - aiogram.event - INFO - Update id=567504103 is handled. Duration 412 ms by bot id=8029384431
+2025-06-11 15:40:44,908 - aiogram.event - INFO - Update id=567504104 is handled. Duration 487 ms by bot id=8029384431
+2025-06-11 15:40:48,829 - aiogram.event - INFO - Update id=567504105 is handled. Duration 494 ms by bot id=8029384431
+2025-06-11 15:40:52,441 - aiogram.event - INFO - Update id=567504106 is handled. Duration 756 ms by bot id=8029384431
+2025-06-11 15:42:05,024 - aiogram.event - INFO - Update id=567504107 is handled. Duration 671 ms by bot id=8029384431
+2025-06-11 15:42:13,076 - ai.ai_processor - INFO - ✅ OpenAI клиент успешно инициализирован
+2025-06-11 15:42:15,601 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-06-11 15:42:15,603 - ai.ai_processor - INFO - ✅ Голос распознан: Бля, я в душе не ебу....
+2025-06-11 15:42:15,982 - aiogram.event - INFO - Update id=567504108 is handled. Duration 3848 ms by bot id=8029384431
+2025-06-11 15:42:29,239 - aiogram.event - INFO - Update id=567504109 is handled. Duration 200 ms by bot id=8029384431
+2025-06-11 15:42:36,006 - aiogram.event - INFO - Update id=567504110 is handled. Duration 194 ms by bot id=8029384431
+2025-06-11 15:42:37,849 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:42:37,853 - ai.ai_processor - INFO - ✅ Ответ от OpenAI: {"is_sufficient": false, "recommendation": "Пожалуйста, ознакомьтесь с учебным материалом о рефрижераторных контейнерах, чтобы понять их назначение и устройство."}
+2025-06-11 15:42:37,881 - ai.background_tasks - INFO - ✅ Анализ ответа 1/3 завершен
+2025-06-11 15:42:40,665 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:42:40,666 - ai.ai_processor - INFO - ✅ Ответ от OpenAI: {"is_sufficient": false, "recommendation": "Ответ студента неверен. Температурный диапазон рефрижераторных контейнеров составляет от -30°C до +30°C. Рекомендуется ознакомиться с учебным материалом для правильного понимания."}
+2025-06-11 15:42:40,675 - ai.background_tasks - INFO - ✅ Анализ ответа 2/3 завершен
+2025-06-11 15:42:43,265 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:42:43,267 - ai.ai_processor - INFO - ✅ Ответ от OpenAI: {"is_sufficient": false, "recommendation": "Необходимо изучить требования к подключению рефрижераторных контейнеров, включая информацию о подключении к судовой электросети мощностью 460V."}
+2025-06-11 15:42:43,280 - ai.background_tasks - INFO - ✅ Анализ ответа 3/3 завершен
+2025-06-11 15:42:44,541 - ai.background_tasks - INFO - ✅ Анализ теста для attempt_id 16 завершен успешно
+2025-06-11 15:45:23,493 - aiogram.event - INFO - Update id=567504111 is handled. Duration 317 ms by bot id=8029384431
+2025-06-11 15:45:30,072 - aiogram.event - INFO - Update id=567504112 is handled. Duration 255 ms by bot id=8029384431
+2025-06-11 15:45:35,648 - aiogram.event - INFO - Update id=567504113 is handled. Duration 288 ms by bot id=8029384431
+2025-06-11 15:45:47,664 - handlers.user_handlers - ERROR - Ошибка в start_new_test: Telegram server says - Bad Request: there is no text in the message to edit
+2025-06-11 15:45:47,772 - aiogram.event - INFO - Update id=567504114 is handled. Duration 228 ms by bot id=8029384431
+2025-06-11 15:45:50,763 - aiogram.event - INFO - Update id=567504115 is handled. Duration 401 ms by bot id=8029384431
+2025-06-11 15:45:56,440 - aiogram.event - INFO - Update id=567504116 is handled. Duration 223 ms by bot id=8029384431
+2025-06-11 15:46:07,964 - database.db_functions - INFO - Тест 17 отменен для пользователя 667353197
+2025-06-11 15:46:08,120 - aiogram.event - INFO - Update id=567504117 is handled. Duration 172 ms by bot id=8029384431
+2025-06-11 15:46:21,973 - aiogram.event - INFO - Update id=567504118 is handled. Duration 179 ms by bot id=8029384431
+2025-06-11 15:46:23,574 - aiogram.event - INFO - Update id=567504119 is handled. Duration 333 ms by bot id=8029384431
+2025-06-11 15:46:25,341 - aiogram.event - INFO - Update id=567504120 is handled. Duration 245 ms by bot id=8029384431
+2025-06-11 15:46:27,430 - handlers.user_handlers - ERROR - Ошибка в start_new_test: Telegram server says - Bad Request: there is no text in the message to edit
+2025-06-11 15:46:27,498 - aiogram.event - INFO - Update id=567504121 is handled. Duration 220 ms by bot id=8029384431
+2025-06-11 15:46:29,573 - aiogram.event - INFO - Update id=567504122 is handled. Duration 430 ms by bot id=8029384431
+2025-06-11 15:46:35,938 - database.db_functions - INFO - Тест 18 отменен для пользователя 6514794837
+2025-06-11 15:46:36,434 - aiogram.event - INFO - Update id=567504123 is handled. Duration 510 ms by bot id=8029384431
+2025-06-11 15:46:39,917 - database.db_functions - INFO - Тест 19 отменен для пользователя 6514794837
+2025-06-11 15:46:40,325 - aiogram.event - INFO - Update id=567504124 is handled. Duration 436 ms by bot id=8029384431
+2025-06-11 15:46:41,656 - aiogram.event - INFO - Update id=567504125 is handled. Duration 316 ms by bot id=8029384431
+2025-06-11 15:46:43,818 - aiogram.event - INFO - Update id=567504126 is handled. Duration 373 ms by bot id=8029384431
+2025-06-11 15:49:25,558 - aiogram.event - INFO - Update id=567504127 is handled. Duration 568 ms by bot id=8029384431
+2025-06-11 15:49:27,343 - aiogram.event - INFO - Update id=567504128 is handled. Duration 511 ms by bot id=8029384431
+2025-06-11 15:49:29,084 - aiogram.event - INFO - Update id=567504129 is handled. Duration 304 ms by bot id=8029384431
+2025-06-11 15:49:30,324 - handlers.user_handlers - ERROR - Ошибка в start_new_test: Telegram server says - Bad Request: there is no text in the message to edit
+2025-06-11 15:49:30,613 - aiogram.event - INFO - Update id=567504130 is handled. Duration 400 ms by bot id=8029384431
+2025-06-11 15:49:32,259 - aiogram.event - INFO - Update id=567504131 is handled. Duration 431 ms by bot id=8029384431
+2025-06-11 15:49:45,571 - aiogram.event - INFO - Update id=567504132 is handled. Duration 348 ms by bot id=8029384431
+2025-06-11 15:50:05,129 - aiogram.event - INFO - Update id=567504133 is handled. Duration 558 ms by bot id=8029384431

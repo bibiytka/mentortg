@@ -1,0 +1,8 @@
+aiogram==3.13.1
+aiosqlite==0.20.0
+openai==1.35.0
+httpx==0.24.1
+httpcore==0.17.3
+python-dotenv==1.0.1
+asyncio-throttle==1.0.2
+aiofiles==23.2.1
